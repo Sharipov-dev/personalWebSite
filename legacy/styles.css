@@ -59,7 +59,7 @@ header div.logo p {
   font-family: 'JetBrains Mono', monospace;
   font-size: 35px;
   width: 240px;
-  font-weight: bolder;
+  font-weight: 800;
   padding-top: 10px;
   height: 100px;
   line-height: 40px;
@@ -114,7 +114,7 @@ main div.intro div.profile p#developer {
   margin-bottom: 20px;
   text-align: center;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 main div.intro div.description {
@@ -146,7 +146,7 @@ main div.about-me {
 main div.about-me h1 {
   text-align: center;
   font-size: 40px;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 main div.about-me h2 {
@@ -192,7 +192,7 @@ ul.links li a img {
 @font-face {
   font-family: 'JetBrains Mono';
   src: url('/public/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
-  font-weight: bolder;
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {

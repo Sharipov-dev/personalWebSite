@@ -1,0 +1,49 @@
+
+header.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  align-items: center;
+  height: 100px;
+}
+
+header div.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+header div.logo p {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 35px;
+  width: 240px;
+  font-weight: 800;
+  padding-top: 10px;
+  height: 100px;
+  line-height: 40px;
+}
+
+header nav ul.navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+  font-weight: bold;
+  font-size: 23px;
+}
+ul.navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+}
+ul.navigation li a:hover {
+  transform: scale(1.3);
+}
