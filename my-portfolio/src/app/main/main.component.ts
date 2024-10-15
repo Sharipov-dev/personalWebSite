@@ -13,7 +13,6 @@ export class MainComponent extends AnimatedComponent {
     override renderer: Renderer2,
     override el: ElementRef,
     override router: Router,
-    private route: ActivatedRoute
   ) {
     super(renderer, el, router);
   }

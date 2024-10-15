@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import {TextCardComponent} from '../text-card/text-card.component';
 
 @Component({
   selector: 'app-contacts',
   standalone: true,
-  imports: [],
+  imports: [
+    TextCardComponent
+  ],
   templateUrl: './contacts.component.html',
   styleUrl: './contacts.component.css'
 })

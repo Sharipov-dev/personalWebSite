@@ -1,0 +1,27 @@
+div.cards-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 50px 20px 0 20px;
+  align-items: center;
+}
+div.skill-card:hover{
+  transform: scale(1.05);
+}
+div.skill-card{
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+div.skill-card:nth-child(5) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
