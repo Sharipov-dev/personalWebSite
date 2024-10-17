@@ -5,4 +5,13 @@ div{
   gap: 50px;
   padding-top: 50px;
   padding-bottom: 30px;
+  margin: 50px 60px 0 60px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+  border-radius: 2%;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

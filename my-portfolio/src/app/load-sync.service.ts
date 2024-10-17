@@ -11,7 +11,6 @@ export class LoadSyncService {
   headerLoaded$ = this.headerLoadedSource.asObservable();
   contentLoaded$ = this.contentLoadedSource.asObservable();
 
-  // Уведомляем, что хедер загружен
   notifyHeaderLoaded(): void {
     this.headerLoadedSource.next();
   }
